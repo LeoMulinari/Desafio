@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.container-cadastro {
+  width: 100%;
+  padding-bottom: 45px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBox {
+  width: 800px;
+  background: #fff;
+  font-family: Lato;
+  text-align: center;
+  padding: 20px 20px 5px 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-top: 20px solid #1ba39c;
+  text-shadow: 2px 2px 5px rgb(143, 143, 143);
+}
+
+.formBox input {
+  background: #eee;
+  width: 100%;
+  font-size: large;
+  margin-bottom: 10px;
+  background-color: #1ba39c2f;
+}
+.formBox label {
+  font-size: 20px;
+}
+
+.botao-voltar {
+  border: none;
+  background: #1ba39c;
+  width: 15%;
+  font-family: Lato;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  text-shadow: 2px 2px 5px #222;
+}
+
+.botao-voltar:hover {
+  transform: scale(1.05);
+}
+
+.campo-sexo {
+  display: flex;
+  flex-direction: row;
+}
+.campo-sexo label {
+  font-size: 20px;
+}
+.titulo-cadastro {
+  color: #fff;
+  font-family: Lato;
+  text-align: center;
+}
+
+.submit-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.45rem;
+  background: #1ba39c;
+  font-weight: bold;
+  border: 1px solid #222;
+  text-shadow: 2px 2px 5px rgb(133, 133, 133);
+}
+.submit-cadastro:hover {
+  cursor: pointer;
+  background-color: #1ba39c;
+  color: #fff;
+  transform: scale(1.02);
+}
